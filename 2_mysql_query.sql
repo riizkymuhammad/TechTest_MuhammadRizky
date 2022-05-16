@@ -1,0 +1,1 @@
+select where max(a.nilai) from tb_mahasiswa join tb_mahasiswa_nilai as a on tb_mahasiswa.mhs_id = a.mhs_id join tb_matakuliah as b on a.mk_id = b.id where b.mk_kode like 'MK303'
